@@ -8,11 +8,12 @@
     position: absolute;
     background-image: url("../images/escamas-header.svg");
     background-repeat: no-repeat;
-    background-position:  -1vw -1vw;
+    background-position:  -1vw 0;
     background-size: 102vw;
     width: 100%;
-    height: 12vw;
+    height: 13vw;
   }
+
   .dragon {
     display: flex;
     justify-content: center;
@@ -21,11 +22,69 @@
     width: 6vw;
     height: 6vw;
     left: 5vw;
-    top: 2.5vw;
+    top: 3.5vw;
     background-color: #411E5A;
     svg {
       width: 2.7vw;
       height: auto;
+    }
+  }
+
+  .sup {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    height: 3vw;
+    background-color: black;
+
+    a {
+      height: 2vw;
+    }
+
+    .twich,
+    .facebook,
+    .login,
+    .search {
+      svg {
+        height: 1.3vw;
+        width: auto;
+      }
+    }
+
+    .twitter {
+      svg {
+        height: 1vw;
+        width: auto;
+      }
+    }
+
+    .youtube {
+      svg {
+        height: 0.9vw;
+        width: auto;
+      }
+    }
+
+    .izq,
+    .der {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      margin-left: 0.5vw;
+      margin-right: 0.5vw;
+
+      a {
+        display: inline-flex;
+        align-items: center;
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
+
+        svg {
+          display: block;
+        }
+      }
     }
   }
 }

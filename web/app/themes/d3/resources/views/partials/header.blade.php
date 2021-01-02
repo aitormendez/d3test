@@ -16,7 +16,19 @@
 
 
   </div>
-  <div class="container-fluid sup">
 
+  <div class="sup">
+    <div class="izq">
+      <a href="#" class="twich">@svg("images.twich")</a>
+      <a href="#" class="twitter">@svg("images.twitter")</a>
+      <a href="#" class="youtube">@svg("images.youtube")</a>
+      <a href="#" class="facebook">@svg("images.facebook")</a>
+    </div>
+
+    <div class="der">
+      <a href="#" class="search">@svg("images.search")</a>
+      <a href="#" class="login">@svg("images.login")</a>
+    </div>
   </div>
+
 </header>
