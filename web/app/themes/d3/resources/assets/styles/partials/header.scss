@@ -4,12 +4,28 @@
 
 .banner {
   // background-image: url("../images/elip.svg");
-  .inf {
+  .escamas-banner {
+    position: absolute;
     background-image: url("../images/escamas-header.svg");
     background-repeat: no-repeat;
     background-position:  -1vw -1vw;
     background-size: 102vw;
     width: 100%;
     height: 12vw;
+  }
+  .dragon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 6vw;
+    height: 6vw;
+    left: 5vw;
+    top: 2.5vw;
+    background-color: #411E5A;
+    svg {
+      width: 2.7vw;
+      height: auto;
+    }
   }
 }

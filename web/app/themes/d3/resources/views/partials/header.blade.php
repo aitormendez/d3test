@@ -1,5 +1,9 @@
 <header class="banner">
-  <div class="container-fluid inf">
+  <div class="inf">
+    <div class="dragon">
+      @svg("images.dragon")
+    </div>
+    <div class="escamas-banner"></div>
     <a class="brand" href="{{ home_url('/') }}" alt="{{ $siteName }}">
       {{ $siteName }}
     </a>
