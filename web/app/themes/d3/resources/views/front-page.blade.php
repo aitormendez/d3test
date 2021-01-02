@@ -3,6 +3,6 @@
 @section('content')
 
 
-<div class="escamas"></div>
+<div id="contenedor" class="escamas"></div>
 
 @endsection

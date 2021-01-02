@@ -2,6 +2,14 @@
  * Header
  */
 
-.brand {
-  font-weight: bold;
+.banner {
+  // background-image: url("../images/elip.svg");
+  .inf {
+    background-image: url("../images/escamas-header.svg");
+    background-repeat: no-repeat;
+    background-position:  -1vw -1vw;
+    background-size: 102vw;
+    width: 100%;
+    height: 12vw;
+  }
 }
