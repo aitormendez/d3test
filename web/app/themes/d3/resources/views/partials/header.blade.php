@@ -4,13 +4,52 @@
       @svg("images.dragon")
     </div>
     <div class="escamas-banner"></div>
-    <a class="brand" href="{{ home_url('/') }}" alt="{{ $siteName }}">
-      {{ $siteName }}
-    </a>
     <nav class="nav-primary">
-      @if (has_nav_menu('primary_navigation'))
-        {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav', 'echo' => false]) !!}
-      @endif
+      <div class="izq">
+        <a class="brand" href="{{ home_url('/') }}" alt="{{ $siteName }}">
+          {{ $siteName }}
+        </a>
+      </div>
+      <div class="der">
+        <ul>
+          <li class="wow"  id="wow">
+            <a href="#"">
+              @svg("images.wow")
+              <span>WoW</span>
+            </a>
+          </li>
+          <li class="overwatch" id="overwatch">
+            <a href="#"">
+              @svg("images.overwatch")
+              <span>OverWatch</span>
+            </a>
+          </li>
+          <li class="heroes" id="heroes">
+            <a href="#"">
+              @svg("images.heroes")
+              <span>Heroes</span>
+            </a>
+          </li>
+          <li class="diablo" id="diablo">
+            <a href="#"">
+              @svg("images.diablo")
+              <span>Diablo</span>
+            </a>
+          </li>
+          <li class="hearthstone" id="hearthstone">
+            <a href="#"">
+              @svg("images.hearthstone")
+              <span>HearthStone</span>
+            </a>
+          </li>
+          <li class="starcraft" id="starcraft">
+            <a href="#"">
+              @svg("images.starcraft")
+              <span>StarCraft</span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
 

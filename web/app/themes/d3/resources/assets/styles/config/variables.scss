@@ -3,5 +3,20 @@
  */
 
 $theme-colors: (
-  primary: #525ddc,
+  altertime: #411E5A,
+  wow: #FFD600,
+  overwatch: #fff,
+  heroes: #339DD4,
+  diablo: #FF1F00,
+  hearthstone: #E78D01,
+  starcraft: #7E38D8,
+  enlace: rgb(0, 119, 255),
 );
+
+/* fuentes */
+// $ff-sans: Barlow, sans-serif;
+$ff-cond: barlow_cond, sans-serif;
+$font-family-base: $ff-cond;
+
+$spacer: 1rem;
+$trans: 0.5s;
