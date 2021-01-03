@@ -9,6 +9,36 @@
 
 import anime from 'animejs';
 
+// logo banner
+
+let alterTime = document.getElementById('altertime');
+let ojoDragon = document.getElementById('ojodragon');
+let dragonDiv = document.getElementById('dragondiv');
+let dur2 = 300;
+
+console.log(dragonDiv);
+
+alterTime.addEventListener('mouseover', function() {
+  anime({
+    targets: dragonDiv,
+    backgroundColor: '#E0C1F5',
+    duration: dur2,
+    easing: 'easeInQuad'
+  });
+})
+
+alterTime.addEventListener('mouseout', function() {
+  anime({
+    targets: dragonDiv,
+    backgroundColor: '#411E5A',
+    duration: dur2,
+    easing: 'easeInQuad'
+  });
+})
+
+
+// iconos juegos
+
 let rebote = 'easeOutElastic(1, 0.2)'
 let dur = 2000;
 let wow = document.getElementById('wow');

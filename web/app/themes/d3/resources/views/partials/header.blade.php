@@ -1,13 +1,13 @@
 <header class="banner">
   <div class="inf">
-    <div class="dragon">
+    <div class="dragon" id="dragondiv">
       @svg("images.dragon")
     </div>
     <div class="escamas-banner"></div>
     <nav class="nav-primary">
       <div class="izq">
-        <a class="brand" href="{{ home_url('/') }}" alt="{{ $siteName }}">
-          {{ $siteName }}
+        <a id="altertime" class="brand" href="{{ home_url('/') }}" alt="{{ $siteName }}">
+          @svg("images.AlterTime")
         </a>
       </div>
       <div class="der">

@@ -92,8 +92,8 @@
     display: flex;
     position: absolute;
     right: 2vw;
-    width: 80vw;
-    top: 4vw;
+    width: 85vw;
+    top: 4.7vw;
     justify-content: space-between;
 
     .der {
@@ -157,7 +157,24 @@
         }
       }
     }
+
+    .izq {
+      .brand {
+        filter: drop-shadow(0 0 0.2vw rgba(255, 255, 255, 0.644));
+        transition: filter $trans;
+
+        svg {
+          width: 8vw;
+          height: auto;
+        }
+
+        &:hover {
+          filter: drop-shadow(0 0 0.2vw #fff);
+        }
+      }
+    }
   }
+
   @include media-breakpoint-up("xl") {
     .sup {
       height: 2vw;
