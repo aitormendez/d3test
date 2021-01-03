@@ -1,0 +1,101 @@
+.home {
+  .hero {
+    padding: 15vw 2vw 4vw;
+    background-color: black;
+
+    .filtros {
+      margin-bottom: 1vw;
+
+      .escama {
+        margin: 0 0.5vw;
+        svg {
+          width: 2vw;
+          height: auto;
+
+          path {
+            transition: fill $trans;
+          }
+        }
+
+        &.wow {
+          path {
+            fill: theme-color("wow");
+          }
+        }
+
+        &.overwatch {
+          path {
+            fill: theme-color("overwatch");
+          }
+        }
+
+        &.heroes {
+          path {
+            fill: theme-color("heroes");
+          }
+        }
+
+        &.diablo {
+          path {
+            fill: theme-color("diablo");
+          }
+        }
+
+        &.hearthstone {
+          path {
+            fill: theme-color("hearthstone");
+          }
+        }
+
+        &.starcraft {
+          path {
+            fill: theme-color("starcraft");
+          }
+        }
+
+        &:hover {
+          path {
+            fill: rgb(46, 12, 46);
+          }
+        }
+      }
+    }
+
+    .tag {
+      border-radius: 3px;
+      margin: 0.3vw;
+      padding: 0.2em 0.8em;
+      box-shadow: inset 4px 4px 0 0 rgba(0, 0, 0, 0.5);
+      color: black;
+
+      &.wow {
+        background-color: theme-color("wow");
+      }
+
+      &.starcraft {
+        background-color: theme-color("starcraft");
+      }
+
+      &.overwatch {
+        background-color: theme-color("overwatch");
+      }
+
+      &.diablo {
+        background-color: theme-color("diablo");
+      }
+
+      &.heroes {
+        background-color: theme-color("heroes");
+      }
+
+      &.hearthstone {
+        background-color: theme-color("hearthstone");
+      }
+
+      &:hover {
+        background-color: theme-color("altertime");
+        color: #9d62ce;
+      }
+    }
+  }
+}
