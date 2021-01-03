@@ -158,4 +158,34 @@
       }
     }
   }
+  @include media-breakpoint-up("xl") {
+    .sup {
+      height: 2vw;
+
+      a {
+        height: 1.6vw;
+      }
+
+      .twich,
+      .facebook,
+      .login,
+      .search {
+        svg {
+          height: 0.9vw;
+        }
+      }
+
+      .twitter {
+        svg {
+          height: 0.6vw;
+        }
+      }
+
+      .youtube {
+        svg {
+          height: 0.5vw;
+        }
+      }
+    }
+  }
 }
