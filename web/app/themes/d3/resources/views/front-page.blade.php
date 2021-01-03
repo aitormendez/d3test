@@ -7,26 +7,29 @@
   <div class="row">
     <div class="col-7 d-flex flex-column">
       <div class="filtros d-flex">
-        <a href="#" class="escama wow">
+        <a href="#" class="escama altertime" id="escama-altertime">
           @svg("images.escama")
         </a>
-        <a href="#" class="escama overwatch">
+        <a href="#" class="escama wow" id="escama-wow">
           @svg("images.escama")
         </a>
-        <a href="#" class="escama heroes">
+        <a href="#" class="escama overwatch" id="escama-overwatch">
           @svg("images.escama")
         </a>
-        <a href="#" class="escama diablo">
+        <a href="#" class="escama heroes" id="escama-heroes">
           @svg("images.escama")
         </a>
-        <a href="#" class="escama hearthstone">
+        <a href="#" class="escama diablo" id="escama-diablo">
           @svg("images.escama")
         </a>
-        <a href="#" class="escama starcraft">
+        <a href="#" class="escama hearthstone" id="escama-hearthstone">
+          @svg("images.escama")
+        </a>
+        <a href="#" class="escama starcraft" id="escama-starcraft">
           @svg("images.escama")
         </a>
       </div>
-      <div class="tags d-flex flex-wrap">
+      <div class="tags grid d-flex flex-wrap">
         <a href="#" class="tag wow">Hunter</a>
         <a href="#" class="tag overwatch">Sacerdote</a>
         <a href="#" class="tag diablo">Druid</a>

@@ -16,8 +16,6 @@ let ojoDragon = document.getElementById('ojodragon');
 let dragonDiv = document.getElementById('dragondiv');
 let dur2 = 300;
 
-console.log(dragonDiv);
-
 alterTime.addEventListener('mouseover', function() {
   anime({
     targets: dragonDiv,
