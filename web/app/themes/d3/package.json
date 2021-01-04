@@ -57,6 +57,7 @@
     "isotope-packery": "^2.0.1",
     "jquery": "^3.5.1",
     "packery": "^2.1.2",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "tippy.js": "^6.2.7"
   }
 }

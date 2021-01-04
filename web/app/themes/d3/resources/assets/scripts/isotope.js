@@ -1,6 +1,7 @@
 var Isotope = require('isotope-layout');
 require('isotope-packery');
 var imagesLoaded = require('imagesloaded');
+import tippy from 'tippy.js';
 
 $(window).load(function() {
   //esperar a que cargue CSS para ejecutar la función con $(window).load(function()
@@ -67,5 +68,19 @@ $(window).load(function() {
       filter: '.tag.starcraft',
     })
   })
+
+  // typpy.js
+
+  const tags = document.querySelector('.tag');
+
+  const inst = tippy(document.querySelectorAll('.tag'), {
+    content(reference) {
+      const id = reference.getAttribute('data-template');
+      const template = document.getElementById(id);
+      return template.innerHTML;
+    },
+    allowHTML: true,
+    theme: 'altertime',
+  });
 
 });

@@ -30,24 +30,117 @@
         </a>
       </div>
       <div class="tags grid d-flex flex-wrap">
-        <a href="#" class="tag wow">Hunter</a>
-        <a href="#" class="tag overwatch">Sacerdote</a>
-        <a href="#" class="tag diablo">Druid</a>
-        <a href="#" class="tag starcraft">Mago</a>
-        <a href="#" class="tag hearthstone">Monk</a>
-        <a href="#" class="tag heroes">Demon Hunter</a>
-        <a href="#" class="tag diablo">Arquero</a>
-        <a href="#" class="tag overwatch">Chamán</a>
-        <a href="#" class="tag wow">Death Knight</a>
-        <a href="#" class="tag diablo">Tortuga</a>
-        <a href="#" class="tag heroes">Sicario</a>
-        <a href="#" class="tag wow">Buscador de oro</a>
-        <a href="#" class="tag overwatch">Pícaro</a>
-        <a href="#" class="tag wow">arquero</a>
-        <a href="#" class="tag overwatch">Escupefuego</a>
-        <a href="#" class="tag heroes">Espantapájaros</a>
+        <a href="#" class="tag wow" data-template="id001">Hunter</a>
+        <a href="#" class="tag overwatch" data-template="id001">Sacerdote</a>
+        <a href="#" class="tag diablo" data-template="id002">Druid</a>
+        <a href="#" class="tag starcraft" data-template="id003">Mago</a>
+        <a href="#" class="tag hearthstone" data-template="id004">Monk</a>
+        <a href="#" class="tag heroes" data-template="id005">Demon Hunter</a>
+        <a href="#" class="tag diablo" data-template="id006">Arquero</a>
+        <a href="#" class="tag overwatch" data-template="id007">Chamán</a>
+        <a href="#" class="tag wow" data-template="id008">Death Knight</a>
+        <a href="#" class="tag diablo" data-template="id009">Tortuga</a>
+        <a href="#" class="tag heroes" data-template="id010">Sicario</a>
+        <a href="#" class="tag wow" data-template="id011">Buscador de oro</a>
+        <a href="#" class="tag overwatch" data-template="id012">Pícaro</a>
+        <a href="#" class="tag wow" data-template="id013">arquero</a>
+        <a href="#" class="tag overwatch" data-template="id014">Escupefuego</a>
+        <a href="#" class="tag heroes" data-template="id015">Espantapájaros</a>
       </div>
     </div>
+  </div>
+</div>
+
+<div style="display: none;">
+  <div id="id001">
+    <h3>Aliquam molestie id sit vestibulum iaculis aliquet commodo</h3>
+    <p>Juego: WoW</p>
+    <p>Versión: Shadowlands</p>
+    <p>Categorría: Expansión </p>
+  </div>
+  <div id="id002">
+    <h3>Aliquam molestie id sit vestibulum iaculis aliquet commodo</h3>
+    <p>Juego: WoW</p>
+    <p>Versión: Shadowlands</p>
+    <p>Categorría: Expansión </p>
+  </div>
+  <div id="id003">
+    <h3>Aliquam molestie id sit vestibulum iaculis aliquet commodo</h3>
+    <p>Juego: WoW</p>
+    <p>Versión: Shadowlands</p>
+    <p>Categorría: Expansión </p>
+  </div>
+  <div id="id004">
+    <h3>Aliquam molestie id sit vestibulum iaculis aliquet commodo</h3>
+    <p>Juego: WoW</p>
+    <p>Versión: Shadowlands</p>
+    <p>Categorría: Expansión </p>
+  </div>
+  <div id="id005">
+    <h3>Aliquam molestie id sit vestibulum iaculis aliquet commodo</h3>
+    <p>Juego: WoW</p>
+    <p>Versión: Shadowlands</p>
+    <p>Categorría: Expansión </p>
+  </div>
+  <div id="id006">
+    <h3>Aliquam molestie id sit vestibulum iaculis aliquet commodo</h3>
+    <p>Juego: WoW</p>
+    <p>Versión: Shadowlands</p>
+    <p>Categorría: Expansión </p>
+  </div>
+  <div id="id007">
+    <h3>Aliquam molestie id sit vestibulum iaculis aliquet commodo</h3>
+    <p>Juego: WoW</p>
+    <p>Versión: Shadowlands</p>
+    <p>Categorría: Expansión </p>
+  </div>
+  <div id="id008">
+    <h3>Aliquam molestie id sit vestibulum iaculis aliquet commodo</h3>
+    <p>Juego: WoW</p>
+    <p>Versión: Shadowlands</p>
+    <p>Categorría: Expansión </p>
+  </div>
+  <div id="id009">
+    <h3>Aliquam molestie id sit vestibulum iaculis aliquet commodo</h3>
+    <p>Juego: WoW</p>
+    <p>Versión: Shadowlands</p>
+    <p>Categorría: Expansión </p>
+  </div>
+  <div id="id010">
+    <h3>Aliquam molestie id sit vestibulum iaculis aliquet commodo</h3>
+    <p>Juego: WoW</p>
+    <p>Versión: Shadowlands</p>
+    <p>Categorría: Expansión </p>
+  </div>
+  <div id="id011">
+    <h3>Aliquam molestie id sit vestibulum iaculis aliquet commodo</h3>
+    <p>Juego: WoW</p>
+    <p>Versión: Shadowlands</p>
+    <p>Categorría: Expansión </p>
+  </div>
+  <div id="id012">
+    <h3>Aliquam molestie id sit vestibulum iaculis aliquet commodo</h3>
+    <p>Juego: WoW</p>
+    <p>Versión: Shadowlands</p>
+    <p>Categorría: Expansión </p>
+  </div>
+  <div id="id013">
+    <h3>Aliquam molestie id sit vestibulum iaculis aliquet commodo</h3>
+    <p>Juego: WoW</p>
+    <p>Versión: Shadowlands</p>
+    <p>Categorría: Expansión </p>
+  </div>
+  <div id="id014">
+    <h3>Aliquam molestie id sit vestibulum iaculis aliquet commodo</h3>
+    <p>Juego: WoW</p>
+    <p>Versión: Shadowlands</p>
+    <p>Categorría: Expansión </p>
+  </div>
+  <div id="id015">
+    <h3>Aliquam molestie id sit vestibulum iaculis aliquet commodo</h3>
+    <p>Juego: WoW</p>
+    <p>Versión: Shadowlands</p>
+    <p>Categorría: Expansión </p>
   </div>
 </div>
 
